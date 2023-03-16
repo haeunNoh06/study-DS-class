@@ -23,6 +23,7 @@ int main(void) {
 	t2 = clock();
 	printf("\nO(n∙m) 방법: %.3lf초 소요\n\n", (double)(t2 - t1) / 1000);
 
+
 	// O(n∙sqrt(m)) 방법(n은 구간 크기, sqrt(m)은 소수 판단을 위한 반복 횟수)
 	t1 = clock();
 	k = 0;
