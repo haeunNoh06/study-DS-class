@@ -13,16 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\part.1">
+      <UniqueIdentifier>{da5cb7a5-1386-4e52-a85f-f3042c225e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\part.2">
+      <UniqueIdentifier>{8a60b0a3-95ba-40ba-8799-ae3eabe414fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PrimeNumber.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="factorial.c">
+      <Filter>소스 파일\part.1</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoiTower.c">
+      <Filter>소스 파일\part.1</Filter>
+    </ClCompile>
+    <ClCompile Include="HanoiTower2.c">
+      <Filter>소스 파일\part.1</Filter>
     </ClCompile>
     <ClCompile Include="magicCard.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\part.1</Filter>
     </ClCompile>
-    <ClCompile Include="factorial.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="PrimeNumber.c">
+      <Filter>소스 파일\part.1</Filter>
+    </ClCompile>
+    <ClCompile Include="array1.c">
+      <Filter>소스 파일\part.2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
